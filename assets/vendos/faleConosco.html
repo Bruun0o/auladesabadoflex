@@ -12,16 +12,86 @@
         <h3>Dados Pessoais</h3>
         <div>
             <label for="nome ">Nome: </label>
-            <input type="text" id="nome"     placeholder="Digite seu nome"
+            <input type="text" id="nome"     placeholder="Digite seu nome">
             <label for="nome ">   Sobre Nome: </label>
-            <input type="text" id="nome"     placeholder="Digite seu nome"
+            <input type="text" id="nome"     placeholder="Digite seu nome">
         </div>
         <div>
             <label for="CPF">CPF: </label>
-            <input type="tel" name="" id="CPF" maxlength="11"
+            <input type="tel" name="" id="CPF" maxlength="11">
             <label for="Rg">    RG:  </label>
-            <input type="tel" id="Rg"     
+            <input type="tel" id="Rg">  
         </div>
+<div>
+    <label for="dataNasc">Data de Nascimento:</label>
+    <input type="date"name="dataNasc"id=" ">
+    <label for="genero">Gênero: </label>
+    <input type="radio" name="genero" id=" ">Masculino
+    <input type="radio" name="genero" id=" ">Feminino
+    <input type="radio" name="genero" id=" ">Outros
+    <input type="text" disabled>
+</div>
+    <div>
+        <label for="nacionalidade:">Nacionalidade</label>
+        <select name="nacionalidade" id=" ">
+          <option value=""  selected></option>  
+          <option value="IQ">Iraque </option>
+          <option value="UC">Ucrania </option>
+          <option value="Br">Brasil</option>
+          <option value="VZ">Venezuela</option>
+          </select>
+
+          <label for="Naturalidade" >Naturalidade</label>
+
+          <select name="Naturalidade" id=" " >
+            <option value=""select></option>
+            <option value="">Amazonas</option>
+            <option value="">Para</option>
+            <option value="">Tocantins</option>
+            <option value="">Rondonia</option>
+            <option value="">Acre</option>
+            <option value="">Amapa</option>
+          </select>
+          <div>
+            <label for="telefone">telefone: </label>
+            <input type="tel" maxlength="9" name="TELEFONE">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="">
+          </div>
+          <hr>
+          <h3> Dados Musicais</h3>
+          <div>
+          <p> Selecione os estilos Musicais Favoritos</p>
+          <input type="checkbox" id=""> MPB
+          <input type="checkbox" id=""> ROCK
+          <input type="checkbox" id=""> POP
+          <input type="checkbox" id=""> KPOP
+          <input type="checkbox" id=""> INSTRUMENTAL
+          <input type="checkbox" id=""> FUNK
+          <input type="checkbox" id=""> BREGA
+          <input type="checkbox" id=""> SERTANEJO
+        </div>
+        <hr>
+        <h3>LOGIN</h3>
+        <button type="button"onclick="teste()"></button>
+        <div>
+            <label for="Senha1">Senha: </label>
+            <input type="password" name="Senha1" id=""
+            placeholder="Digite a senha">
+            <label for="Senha2">Senha: </label>
+            <input type="password" name="senha2" id="
+            placeholder"Confirme a Senha">
+            
+        </div>
+
+        <hr>
+        <div>
+            <button>Salvar</button>
+            <button>Limpar</button>
+        </div>
+    
+    </div>
+        
      </form>
 </body>
 </html>

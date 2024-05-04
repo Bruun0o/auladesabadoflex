@@ -1,0 +1,21 @@
+*{  
+    /*seletor universal - aplica o conjuto de regras as todas as tags*/
+background-color: red;
+}
+
+span{/*seletor de tags - aplica o conjuto de reegras as toda as tags informadas*/
+margin: 2px;}
+
+.classeTeste {/*seletor d classes - aplica o conjuto de regras somente as tags que possuirem
+a classe*/
+padding: auto;}
+
+#idsenha1 {/* seletor de ID - aplica o conjuto de regras somente a tag que possui o ID*/
+border-radius: 2px;}
+
+.elementos {
+    padding: 20px;/*a regra será aplicada em todas as direções*/
+    margin: 10px 20px;/* o valor ao eixo Y eo segundo ao X*/
+    border-radius: 10px 5px 3px 6px;/*Os valores serão aplicados*/
+    
+}
