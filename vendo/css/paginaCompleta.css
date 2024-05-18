@@ -1,0 +1,16 @@
+:root{
+    --ligth-pink: #feede4;
+}
+.bg-light-pink{
+    background-color: var(--ligth-pink);
+}
+.tamanho{
+    height: 50%;
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+h2{
+    font-size: 3rem;
+}
